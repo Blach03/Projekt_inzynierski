@@ -17,7 +17,7 @@ class MainMenuWindow(QMainWindow):
         mid_layout.addItem(QSpacerItem(QSizePolicy.Expanding, QSizePolicy.Minimum))
         bottom_layout.addItem(QSpacerItem(QSizePolicy.Expanding, QSizePolicy.Minimum))
 
-        self.quiz_button = QPushButton("Rozpocznij Quiz")
+        self.quiz_button = QPushButton("Quiz")
         self.quiz_button.setFixedSize(150, 40)
         self.profile_button = QPushButton("Profil Użytkownika")
         self.profile_button.setFixedSize(150, 40)
